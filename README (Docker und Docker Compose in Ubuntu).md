@@ -6,7 +6,7 @@
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-de
 	
------
+---
 
 ### Docker auf Ubuntu installieren
 
@@ -26,13 +26,13 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 	
 	sudo systemctl status docker
 	
----------------------------------------------------------------	
+---
 		
 ### Docker auf Archilinux installieren
 	
 	sudo pacman -Syyu docker
 	
----------------------------------------------------------------	
+---
 	
 ### Docker starten	
 	
@@ -44,7 +44,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 
 	sudo systemctl status docker
 	
-------------------------------------------------------------------	
+---	
 	
 ### Docker-Compose installieren
 
@@ -58,7 +58,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 	
 	sudo docker info
 	
--------------------------------------------------------------------	
+---	
 	
 ### Image Busybox installieren
 
@@ -72,7 +72,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 	
 	sudo docker rm + ContainerID #(löscht)
 	
-------------------------------------------------------------------	
+---	
 	
 ### Befehle im Container ausführen
 
@@ -80,7 +80,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 	
 	exit
 	
----------------------------------------------------------------------
+---
 	
 ### Webapp mit Nginx
 
@@ -92,7 +92,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 	
 	Webbrowser: http://localhost:5000/
 	
-------------------------------------------------------------------------	
+----	
 
 ### Container starten stoppen bearbeiten und mit der Shell an anderen Sachen rumfrickeln
 
@@ -112,7 +112,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 		
 		strg p strg p #(exit mode)
 	
-----------------------------------------------------------------------------	
+---	
 	
 ### Nginx Daten übergeben (Ordner mit Index.html erstellen und in den Terminal ziehen. Ordner verknüpfen)
 
@@ -120,7 +120,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 	
 	http://localhost:5000/ #(Test der Website)
 	
---------------------------------------------------------------------------------	
+---
 	
 ### Container stoppen loeschen von Images und Containern
 
@@ -144,7 +144,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 	
 		sudo docker image rm "Image ID" #(oder Name)
 		
-----------------------------------------------------------------------------------
+---
 		
 ### Container automaisch starten (always, on-failure, no, unless-stopped
 
