@@ -30,7 +30,7 @@
 	
 	http://localhost:8080
 	
-### Netdata installieren fast	
+### Netdata installieren Kurzversion	
 	
 	wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
 	
