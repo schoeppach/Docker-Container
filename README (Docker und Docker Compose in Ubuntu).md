@@ -1,3 +1,5 @@
+$\color[rgb]{1,0,1} documented: schoeppach$
+
 
 # Docker und Docker Compose in Ubuntu
 
