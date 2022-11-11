@@ -148,7 +148,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 		
 ### Container automaisch starten (always, on-failure, no, unless-stopped
 
-	sudo system stop docker #(erstmal stoppen)
+	sudo systemctl stop docker #(erstmal stoppen)
 	
 	sudo docker run -p 5000:80 -dit --restart unless-stopped -v '/home/schoeppach/NGINX':/usr/share/nginx/html nginx
   
