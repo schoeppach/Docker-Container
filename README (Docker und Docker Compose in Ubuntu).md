@@ -4,7 +4,7 @@
 
 ##  Quellen:
 
-	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-de
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-de
 	
 -----
 
@@ -96,7 +96,7 @@
 
 ### Container starten stoppen bearbeiten und mit der Shell an anderen Sachen rumfrickeln
 
-	#### Detached Mode 	
+	Detached Mode 	
 	
 		sudo docker run -p 5000:80 nginx #(Detached Mode)
 	
@@ -104,7 +104,7 @@
 		
 		exit
 	
-	#### Atached Mode (logs)
+	Atached Mode (logs)
 
 		sudo docker run -p 5000:80 -d -ti nginx
 
@@ -124,7 +124,7 @@
 	
 ### Container stoppen loeschen von Images und Containern
 
-	#### Container
+	Container
 	
 		sudo docker ps #(Uebersicht)
 	
@@ -132,7 +132,7 @@
 	
 		sudo docker rm "Container ID"
 		
-	#### Images
+	Images
 	
 		sudo docker image ls
 		
