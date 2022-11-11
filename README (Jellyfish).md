@@ -14,7 +14,7 @@
 	-e UID=1000 -e GID=100 \
 	jellyfin/jellyfin:latest
 	
-### Website aufrufen	
+## Website aufrufen	
 	
 	http:localhost:8096
 	
@@ -57,7 +57,7 @@
 		--security-opt apparmor=unconfined \
 		netdata/netdata
 		
-### Netdata installieren (im Terminal eingeben und durchlaufen lassen)
+## Netdata installieren (im Terminal eingeben und durchlaufen lassen)
 
 		sudo docker run -d --name=netdata \
 		-p 19999:19999 \
