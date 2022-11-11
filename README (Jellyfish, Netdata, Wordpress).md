@@ -29,9 +29,15 @@
 	sudo docker ps
 	
 	http://localhost:8080
+	
+### Netdata installieren fast	
+	
+	wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
+	
+	http://localhost:19999
 
 ### Netdata installieren
-	
+
 	sudo docker ps -a
 	
 	sudo nano /etc/ssh/sshd_config (# vor Port 22 entfernen speichern)
