@@ -1,9 +1,7 @@
 
 # Docker Install
 
-## Jellyfish install
-
-### Terminal Befehl
+### Jellyfish install
 
 	sudo docker run -d \
 	--name jellyfin \
