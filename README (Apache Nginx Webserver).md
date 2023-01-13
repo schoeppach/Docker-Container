@@ -33,7 +33,7 @@ Apache verwalten:
     sudo systemctl disable apache2
     sudo systemctl enable apache2
 
-deinstalieren:
+deinstallieren:
     Nginx
     sudo apt purge nginx nginx-common nginx-core
     
