@@ -1,15 +1,22 @@
 #Nginx or Apache2 Installieren:
 
-##Pakete Update Nginx Installation:
+## Pakete Update Nginx Installation:
+
     sudo apt update
+    
     sudo apt install nginx
+    
     sudo apt install apache2
 
 
 ##Firewall anpassen: 
+
     sudo ufw app list
+    
     sudo ufw allow 'Nginx HTTP'
+    
     sudo ufw allow 'Apache'
+    
     sudo ufw status
 
 ##Webserver testen:
