@@ -1,4 +1,4 @@
-#Nginx or Apache2 Installieren:
+# Nginx or Apache2 Installieren:
 
 ## Pakete Update Nginx Installation:
 
@@ -9,7 +9,7 @@
     sudo apt install apache2
 
 
-##Firewall anpassen: 
+## Firewall anpassen: 
 
     sudo ufw app list
     
@@ -19,7 +19,7 @@
     
     sudo ufw status
 
-##Webserver testen:
+## Webserver testen:
     sudo systemctl status nginx
     sudo systemctl status apache2
 
@@ -27,10 +27,10 @@
     hostname -I
     ip im Browser eingeben
 
-##Index HTML anpassen:
+## Index HTML anpassen:
     /var/www als root öffen Index bearbeiten
 
-##Apache verwalten:
+## Apache verwalten:
     sudo systemctl stop apache2
     sudo systemctl start apache2
 
@@ -40,7 +40,7 @@
     sudo systemctl disable apache2
     sudo systemctl enable apache2
 
-##deinstallieren:
+## deinstallieren:
     Nginx
     sudo apt purge nginx nginx-common nginx-core
     
