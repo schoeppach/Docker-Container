@@ -29,6 +29,11 @@
 
 ### Index HTML anpassen:
     /var/www als root öffen Index bearbeiten
+    
+    oder nautilus installieren:
+    
+    sudo apt-get install nautilus-admin
+    nautilus -q
 
 ### Apache verwalten:
     sudo systemctl stop apache2
