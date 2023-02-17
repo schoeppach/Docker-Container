@@ -34,6 +34,9 @@
     
     sudo apt-get install nautilus-admin
     nautilus -q
+    
+### Ordner Berechtigungen:
+    sudo chmod -R 775 /var/www/html
 
 ### Apache verwalten:
     sudo systemctl stop apache2
